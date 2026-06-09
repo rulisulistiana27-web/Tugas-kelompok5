@@ -81,3 +81,5 @@ code ini berfungsi sebagai menyimpan data pada game, dalam game ini terdapat sco
 7. `obs.x -= gameSpeed;` ini adalah transformasi, yang digunakan untuk memindahkan objek di setiap frame
 
 8. `if (obs.x + obs.width < 0)` `obstacles.splice(i,1);`ini adalah clipping, yang digunakan menghapus obstcale keluar dari layar sebelah kiri
+9. `let distance = Math.sqrt(distX * distX + distY * distY);` digunakan untuk mendeteksi jarak koin dan objek
+10. `requestAnimationFrame(update);` digunakan untuk menjalankan pengulangan secara terus menerus
